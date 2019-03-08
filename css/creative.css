@@ -161,13 +161,13 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #c6800c;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d6370c;
+  color: #efb148;
   text-decoration: underline;
 }
 
@@ -10883,12 +10883,68 @@ section.bitter p {
   color: #626262;
 }
 
-section.bitter i.fas {
+section.bitter i.fas.heading {
   color: #b49d76;
   font-size: 3rem;
 }
 
+#contact {
+  background-color: #353535;
+  color: #727272;
+}
+
+.paper {
+  background-image: url("../img/backgrounds/paper.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 *::selection {
   background-color: #a3845b;
+}
+
+.product.details {
+  text-align: left;
+  font-family: Lato;
+  font-size: 0.8rem;
+  color: #626262;
+}
+
+.delivery {
+  font-family: Lato;
+  font-size: 0.6rem;
+  color: #626262;
+}
+
+.delivery i {
+  font-size: 0.5rem;
+}
+
+.currency.discounted {
+  font-size: 1.5rem;
+}
+
+.currency.undiscounted {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.discount {
+  color: green;
+}
+
+.rating {
+  color: orange;
+}
+
+.ratings {
+  color: #323232;
+}
+
+footer {
+  font-family: "Lato";
+}
+
+footer a {
+  color: #a3875b;
 }
