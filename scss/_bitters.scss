@@ -13,12 +13,12 @@
 }
 
 .ingredient {
-  font-family: "Noto Serif", serif;
+  font-family: $font-family-serif;
   color: #5d3716;
 }
 
 .text-muted {
-  font-family: "Lato";
+  font-family: $font-family-sans-serif;
   font-size: 1.2rem;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .info1 {
-  background-color: #313131;
+  background-color: $gray-theme;
   background-image: url("../img/products/bottle-half.png");
   background-repeat: no-repeat;
   background-position: left;
@@ -36,7 +36,7 @@
 .info1 h2 {
   font-size: 2.3rem;
   font-weight: 400;
-  color: #fff;
+  color: $white;
 }
 
 .info1 hr {
@@ -52,19 +52,19 @@ hr.no-line {
 }
 
 .info1 p {
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-size: 13px;
   color: #989898;
 }
 
 .info1 p.highlighted {
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-size: 0.8rem;
   color: #a3845b;
 }
 
 .info2 p {
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-size: 0.8rem;
   color: #626262;
 }
@@ -96,25 +96,25 @@ hr.no-line {
   color: #fff;
 }
 
-#bitter-1 .map {
+#bitter-1 .map, #bitter-2 .map {
   background-color: #595959;
   background-image: url("../img/maps/map.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
 
-#bitter-1 .map h2 {
-  color: #fff;
+  h2 {
+    color: #fff;
+  }
 }
 
 q {
   color: #ddd;
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-style: italic;
   font-size: 1.5rem;
 }
 
-#bitter-divider {
+.bitter-divider {
   background-color: #a3875b;
   color: white;
 }
@@ -126,7 +126,7 @@ section.bitter h2 {
 }
 
 section.bitter p {
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-size: 0.8rem;
   color: #626262;
 }
@@ -153,13 +153,13 @@ section.bitter i.fas.heading {
 
 .product.details {
   text-align: left;
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-size: 0.8rem;
   color: #626262;
 }
 
 .delivery {
-  font-family: Lato;
+  font-family: $font-family-sans-serif;
   font-size: 0.6rem;
   color: #626262;
 }
