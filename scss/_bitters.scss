@@ -1,0 +1,190 @@
+.map {
+  background-image: url("../img/maps/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services {
+  background-color: #eeedeb;
+}
+
+#tonka {
+  background-color: #fcf0fe;
+}
+
+.ingredient {
+  font-family: "Noto Serif", serif;
+  color: #5d3716;
+}
+
+.text-muted {
+  font-family: "Lato";
+  font-size: 1.2rem;
+}
+
+.info p {
+  line-height: 1.4rem;
+}
+
+.info1 {
+  background-color: #313131;
+  background-image: url("../img/products/bottle-half.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.info1 h2 {
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.info1 hr {
+  background-color: #a3845b;
+}
+
+hr.no-line {
+  visibility: hidden;
+}
+
+.info1, .info2, .info3 {
+  letter-spacing: 1px;
+}
+
+.info1 p {
+  font-family: Lato;
+  font-size: 13px;
+  color: #989898;
+}
+
+.info1 p.highlighted {
+  font-family: Lato;
+  font-size: 0.8rem;
+  color: #a3845b;
+}
+
+.info2 p {
+  font-family: Lato;
+  font-size: 0.8rem;
+  color: #626262;
+}
+
+.info2 h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.info2 i.fas {
+  color: #b49d76;
+  font-size: 3rem;
+}
+
+.info3 {
+  background-image: url("../img/backgrounds/section-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info3 a.btn.btn-light {
+  background-color: #a3845b;
+  color: #fff;
+}
+
+.info3 a.btn.btn-light:hover {
+  background-color: #99784d;
+  color: #fff;
+}
+
+#bitter-1 .map {
+  background-color: #595959;
+  background-image: url("../img/maps/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bitter-1 .map h2 {
+  color: #fff;
+}
+
+q {
+  color: #ddd;
+  font-family: Lato;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+#bitter-divider {
+  background-color: #a3875b;
+  color: white;
+}
+
+section.bitter h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #000;
+}
+
+section.bitter p {
+  font-family: Lato;
+  font-size: 0.8rem;
+  color: #626262;
+}
+
+section.bitter i.fas.heading {
+  color: #b49d76;
+  font-size: 3rem;
+}
+
+#contact {
+  background-color: #353535;
+  color: #727272;
+}
+
+.paper {
+  background-image: url("../img/backgrounds/paper.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+*::selection {
+  background-color: #a3845b;
+}
+
+.product.details {
+  text-align: left;
+  font-family: Lato;
+  font-size: 0.8rem;
+  color: #626262;
+}
+
+.delivery {
+  font-family: Lato;
+  font-size: 0.6rem;
+  color: #626262;
+}
+
+.delivery i {
+  font-size: 0.5rem;
+}
+
+.currency.discounted {
+  font-size: 1.5rem;
+}
+
+.currency.undiscounted {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.discount {
+  color: green;
+}
+
+.rating {
+  color: orange;
+}
+
+.ratings {
+  color: #323232;
+}
