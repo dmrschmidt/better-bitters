@@ -9590,7 +9590,7 @@ hr.light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #212529;
+  background-color: rgba(24, 24, 24, 0.9);
   transition: background-color 0.2s ease;
 }
 

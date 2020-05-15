@@ -1,7 +1,7 @@
 // Base styling for the navbar
 #mainNav {
   box-shadow: $box-shadow;
-  background-color: $gray-900;
+  background-color: rgba(darken($gray-theme, 10%), 0.9);
   transition: background-color 0.2s ease;
 
   .navbar-brand {
