@@ -9579,9 +9579,8 @@ hr.light {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
   font-weight: 700;
-  text-transform: uppercase;
   border: none;
-  border-radius: 10rem;
+  border-radius: 1rem;
 }
 
 .page-section {
@@ -9664,6 +9663,10 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
   font-family: "Noto Serif", serif;
+}
+
+header.masthead .btn {
+  min-width: 50%;
 }
 
 @media (min-width: 992px) {
@@ -9782,13 +9785,12 @@ hr.no-line {
 
 .info1 p {
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 13px;
+  font-size: 0.9rem;
   color: #989898;
 }
 
 .info1 p.highlighted {
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.9rem;
   color: #a3845b;
 }
 
@@ -9813,15 +9815,16 @@ hr.no-line {
   background-image: url("../img/backgrounds/section-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .info3 a.btn.btn-light {
-  background-color: #a3845b;
+  background-color: #a3875b;
   color: #fff;
 }
 
 .info3 a.btn.btn-light:hover {
-  background-color: #99784d;
+  background-color: #937952;
   color: #fff;
 }
 
