@@ -9690,16 +9690,16 @@ header.masthead .btn {
   }
 }
 
-.ingredients .container-fluid {
+.container-fluid {
   max-width: 1920px;
 }
 
-.ingredients .container-fluid .ingredient-box {
+.container-fluid .ingredient-box {
   position: relative;
   display: block;
 }
 
-.ingredients .container-fluid .ingredient-box .ingredient-box-caption {
+.container-fluid .ingredient-box .ingredient-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9715,18 +9715,18 @@ header.masthead .btn {
   transition: opacity 0.25s ease;
 }
 
-.ingredients .container-fluid .ingredient-box .ingredient-box-caption .ingredient-name {
+.container-fluid .ingredient-box .ingredient-box-caption .ingredient-name {
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.ingredients .container-fluid .ingredient-box .ingredient-box-caption .ingredient-description {
+.container-fluid .ingredient-box .ingredient-box-caption .ingredient-description {
   font-size: 0.9rem;
 }
 
-.ingredients .container-fluid .ingredient-box:hover .ingredient-box-caption {
+.container-fluid .ingredient-box:hover .ingredient-box-caption {
   opacity: 1;
 }
 
@@ -9837,6 +9837,10 @@ hr.no-line {
 
 #bitter-1 .map h2, #bitter-2 .map h2 {
   color: #fff;
+}
+
+a.preview:hover {
+  background-color: red;
 }
 
 q {
