@@ -10,6 +10,10 @@ html {
   color: fade-out($white, .25);
 }
 
+blockquote {
+  font-style: italic;
+}
+
 // Custom horizontal rules
 hr.divider {
   max-width: 3.25rem;
