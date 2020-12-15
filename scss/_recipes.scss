@@ -1,0 +1,56 @@
+#recipes {
+  color: white;
+
+  h2, h6 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bitter-1 {
+    background-color: #A97A80;
+
+    .image {
+      background-image: url("../img/cocktails/classy-lady.jpg");
+    }
+  }
+
+  .bitter-2 {
+    background-color: #8B572A;
+
+    .image {
+      background-image: url("../img/cocktails/rosita-meier.jpg");
+    }
+  }
+
+  .bitter-3 {
+    background-color: #8FC055;
+
+    .image {
+      background-image: url("../img/cocktails/mai-pen-rai-smash.jpg");
+    }
+  }
+
+  .bitter-4 {
+    background-color: #F8A525;
+
+    .image {
+      background-image: url("../img/cocktails/santa-sour.jpg");
+    }
+  }
+}

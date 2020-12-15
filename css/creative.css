@@ -9925,6 +9925,63 @@ section.bitter i.fas.heading {
   color: #323232;
 }
 
+#recipes {
+  color: white;
+}
+
+#recipes h2, #recipes h6 {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#recipes h2 {
+  font-size: 4rem;
+}
+
+#recipes h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+}
+
+#recipes .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#recipes .bitter-1 {
+  background-color: #A97A80;
+}
+
+#recipes .bitter-1 .image {
+  background-image: url("../img/cocktails/classy-lady.jpg");
+}
+
+#recipes .bitter-2 {
+  background-color: #8B572A;
+}
+
+#recipes .bitter-2 .image {
+  background-image: url("../img/cocktails/rosita-meier.jpg");
+}
+
+#recipes .bitter-3 {
+  background-color: #8FC055;
+}
+
+#recipes .bitter-3 .image {
+  background-image: url("../img/cocktails/mai-pen-rai-smash.jpg");
+}
+
+#recipes .bitter-4 {
+  background-color: #F8A525;
+}
+
+#recipes .bitter-4 .image {
+  background-image: url("../img/cocktails/santa-sour.jpg");
+}
+
 #impressum .business-card {
   background-image: url("../img/opengraph-preview.jpg");
   background-repeat: no-repeat;
