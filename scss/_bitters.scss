@@ -31,6 +31,15 @@
   background-image: url("../img/products/bottle-half.png");
   background-repeat: no-repeat;
   background-position: left;
+  background-size: 200px;
+}
+
+.overlayed {
+  background-color: rgba(49, 49, 49, 0.6);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
 }
 
 .info1 h2 {
